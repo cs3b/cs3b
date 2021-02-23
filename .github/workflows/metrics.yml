@@ -23,11 +23,8 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Warsaw
-          plugin_activity: yes
-          plugin_activity_days: 14
-          plugin_activity_filter: all
-          plugin_activity_limit: 5
-          plugin_activity_visibility: public
+          plugin_activity: no
+          plugin_lines: yes
           plugin_introduction: yes
           plugin_introduction_title: yes
           plugin_languages: yes
